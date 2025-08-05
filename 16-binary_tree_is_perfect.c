@@ -27,7 +27,8 @@ size_t find_depth(const binary_tree_t *tree)
  *
  * Return: 1 if perfect, 0 otherwise
  */
-int is_perfect_recursive(const binary_tree_t *tree, size_t depth_attendue, size_t current_depth)
+int is_perfect_recursive(const binary_tree_t *tree, size_t depth_attendue,
+						size_t current_depth)
 {
 	if (tree == NULL)
 		return (1);
